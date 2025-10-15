@@ -1,0 +1,13 @@
+{
+  "name": "@cheemcheem/scrabble-analyser-components",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  }
+}

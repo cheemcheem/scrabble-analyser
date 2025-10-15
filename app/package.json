@@ -1,0 +1,16 @@
+{
+  "name": "@cheemcheem/scrabble-analyser-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cheemcheem/scrabble-analyser-components": "workspace:",
+    "@cheemcheem/scrabble-analyser-utils": "workspace:"
+  }
+}

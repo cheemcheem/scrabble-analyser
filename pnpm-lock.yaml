@@ -55,6 +55,19 @@ importers:
         specifier: ^7.1.7
         version: 7.1.10(@types/node@24.7.2)
 
+  app:
+    dependencies:
+      '@cheemcheem/scrabble-analyser-components':
+        specifier: 'workspace:'
+        version: link:../packages/components
+      '@cheemcheem/scrabble-analyser-utils':
+        specifier: 'workspace:'
+        version: link:../packages/utils
+
+  packages/components: {}
+
+  packages/utils: {}
+
 packages:
 
   '@babel/code-frame@7.27.1':

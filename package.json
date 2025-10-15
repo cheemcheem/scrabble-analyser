@@ -1,5 +1,5 @@
 {
-  "name": "scrabble-analyser",
+  "name": "@cheemcheem/scrabble-analyser",
   "private": true,
   "version": "0.0.0",
   "type": "module",
